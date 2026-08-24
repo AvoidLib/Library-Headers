@@ -1,4 +1,4 @@
-package neoforged.api.distmarker;
+package net.neoforged.api.distmarker;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

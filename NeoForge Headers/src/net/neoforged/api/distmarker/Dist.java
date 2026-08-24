@@ -1,4 +1,4 @@
-package neoforged.api.distmarker;
+package net.neoforged.api.distmarker;
 
 public enum Dist {
     CLIENT,

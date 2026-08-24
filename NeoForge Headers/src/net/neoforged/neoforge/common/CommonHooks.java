@@ -1,7 +1,7 @@
-package neoforged.neoforge.common;
+package net.neoforged.neoforge.common;
 
 import net.minecraft.world.level.material.Fluid;
-import neoforged.neoforge.fluids.FluidType;
+import net.neoforged.neoforge.fluids.FluidType;
 
 public class CommonHooks {
     public static FluidType getVanillaFluidType(Fluid fluid) {

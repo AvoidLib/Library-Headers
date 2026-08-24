@@ -1,4 +1,4 @@
-package neoforged.bus.api;
+package net.neoforged.bus.api;
 
 public abstract class Event {
     protected Event() {}

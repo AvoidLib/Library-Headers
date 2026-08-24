@@ -1,4 +1,4 @@
-package neoforged.bus.api;
+package net.neoforged.bus.api;
 
 import java.util.function.Consumer;
 

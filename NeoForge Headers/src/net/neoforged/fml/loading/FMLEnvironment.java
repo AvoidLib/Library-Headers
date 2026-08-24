@@ -1,6 +1,6 @@
-package neoforged.fml.loading;
+package net.neoforged.fml.loading;
 
-import neoforged.api.distmarker.Dist;
+import net.neoforged.api.distmarker.Dist;
 
 public final class FMLEnvironment {
     public static Dist getDist() {

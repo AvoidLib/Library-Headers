@@ -1,4 +1,4 @@
-package neoforged.fml.loading;
+package net.neoforged.fml.loading;
 
 import java.nio.file.Path;
 

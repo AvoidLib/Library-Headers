@@ -1,6 +1,6 @@
-package neoforged.fml.loading;
+package net.neoforged.fml.loading;
 
-import neoforged.fml.loading.moddiscovery.ModFileInfo;
+import net.neoforged.fml.loading.moddiscovery.ModFileInfo;
 
 import java.util.List;
 

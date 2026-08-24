@@ -1,4 +1,4 @@
-package neoforged.fml.loading.moddiscovery;
+package net.neoforged.fml.loading.moddiscovery;
 
 import java.nio.file.Path;
 

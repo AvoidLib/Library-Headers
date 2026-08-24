@@ -24,4 +24,8 @@
  */
 package org.spongepowered.plugin;
 
-public interface PluginContainer {}
+import org.spongepowered.plugin.metadata.PluginMetadata;
+
+public interface PluginContainer extends ResourceQueryable {
+    PluginMetadata metadata();
+}

@@ -24,12 +24,8 @@
  */
 package org.spongepowered.api;
 
-import org.spongepowered.api.plugin.PluginManager;
-
-import java.nio.file.Path;
-
-public interface Game {
-    Path gameDirectory();
-    PluginManager pluginManager();
-    Platform platform();
+public final class Sponge {
+    public static Game game() {
+        return null;
+    }
 }

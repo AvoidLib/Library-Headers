@@ -1,4 +1,0 @@
-no_version = 1
-no_manifest = 1
-libs = ["./mcheaders/build/libs/mcheaders.jar"]
-java_version = 17

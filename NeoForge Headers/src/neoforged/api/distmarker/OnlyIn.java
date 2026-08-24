@@ -1,0 +1,9 @@
+package neoforged.api.distmarker;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
+@Retention(RetentionPolicy.CLASS)
+public @interface OnlyIn {
+    Dist value();
+}

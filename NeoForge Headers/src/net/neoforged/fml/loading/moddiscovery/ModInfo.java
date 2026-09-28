@@ -8,13 +8,15 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 
-public abstract class ModInfo {
+public abstract class ModInfo implements IModInfo {
     public abstract String getModId();
     public abstract String getDisplayName();
     public abstract String getDescription();
+    public abstract String getNamespace();
     public abstract ArtifactVersion getVersion();
     public abstract Optional<String> getLogoFile();
     public abstract Map<String, Object> getModProperties();
     public abstract Optional<URL> getUpdateURL();
+    public abstract Optional<URL> getModURL();
     public abstract List<? extends IModInfo.ModVersion> getDependencies();
 }

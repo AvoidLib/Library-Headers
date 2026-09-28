@@ -1,11 +1,14 @@
 package net.neoforged.fml.loading.moddiscovery;
 
+import net.neoforged.neoforgespi.language.IModInfo;
+
 import java.net.URL;
 import java.util.List;
 import java.util.Optional;
 
 public abstract class ModFileInfo {
     public abstract ModFile getFile();
+    public abstract List<IModInfo> getMods();
     public abstract URL getIssueURL();
     public abstract Optional<String> getCodeSigningFingerprint();
     public abstract String versionString();

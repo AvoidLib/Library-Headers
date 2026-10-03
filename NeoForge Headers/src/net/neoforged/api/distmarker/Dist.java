@@ -2,13 +2,13 @@ package net.neoforged.api.distmarker;
 
 public enum Dist {
     CLIENT,
-    SERVER;
+    DEDICATED_SERVER;
 
     public boolean isClient() {
         return this == Dist.CLIENT;
     }
 
     public boolean isServer() {
-        return this == Dist.SERVER;
+        return this == Dist.DEDICATED_SERVER;
     }
 }

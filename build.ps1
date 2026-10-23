@@ -14,3 +14,7 @@ cd "Sponge Headers"
 diamond build
 
 cd ..
+cd "Paper Headers"
+diamond build
+
+cd ..
